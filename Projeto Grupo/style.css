@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background-color: #03b338;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #46d246;
+}
+
+#logo {
+  height: 120px;
+  border-radius: 100px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#chuteira {
+  overflow: none;
+  width: 1900px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+#amarelo {
+  background-color: #f0e02f;
+  height: 233px;
+}
+
+#ronaldinho {
+  display: flex;
+  margin: 10px;
+  height: 231px;
+}
+
+#messi {
+  display: flex;
+  margin: 10px;
+  height: 231px;
+}
+
+#cr7 {
+  display: flex;
+  margin: 10px;
+  height: 231px;
+  margin-left: 10px;
+}
+
+#lendas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+#lendas img {
+  height: 231px;
+  margin: 50px;
+}
+
+#azul {
+  background-color: #1755da;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+#lendas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.lenda {
+  display: flex;
+  flex-direction: column;   /* imagem em cima, título e texto embaixo */
+  align-items: center;      /* centraliza dentro do bloco */
+  max-width: 300px;
+  text-align: center;
+}
+
+.lenda img {
+  height: 231px;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.informacoes {
+  font-size: 1rem;
+  color: #222;
+  text-align: justify;
+}
