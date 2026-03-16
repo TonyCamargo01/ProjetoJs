@@ -128,3 +128,45 @@ h1 {
   color: #FF0000;
   margin-top: 20px;
 }
+
+#formulario {
+  background-color: #6CACF6;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: justify;     
+}
+form {
+  display: flex;
+  flex-direction: column; 
+  align-items: justify;    
+  gap: 15px;
+}
+
+.campo {
+  padding: 20px 100px;
+  margin-top: 80px;
+  display: flex;
+  align-items: justify; 
+  gap: 10px;              
+}
+
+label {
+  margin-top: 40px;
+  font-weight: bold;
+  min-width: 120px;       
+  text-align: right;      
+  font-size: 3rem;
+}
+
+input {
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+button {
+  margin: 100px;
+  padding: 30px 200px;
+}
