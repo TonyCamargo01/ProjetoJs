@@ -1,65 +1,95 @@
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lendas em Campo</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="estilosCSS">
+</head>
+<body>
+    <body bgcolor="green">
     <header>
-      <img src="./imagens/logo.jpg" alt="logo" id="logo" />
-      <nav class="links">
-        <a href="">HOME</a>
-        <a href="">PRODUTOS</a>
-        <a href="">SOBRE</a>
-        <a href="">CONTATO</a>
-      </nav>
+        
+        <img src="https://raw.githubusercontent.com/TonyCamargo01/ProjetoJs/b8d05f5f3169fb469f9335209eb2d93667c2db29/Projeto%20Grupo/imagens/logo.jpg" alt="logo" height="150"width="200">
+         <figure align="center">
+        <nav class="links">
+            <h1>
+          <a href="">Home</a>
+          <a href="">Produtos</a>
+          <a href="">Sobre</a>
+          <a href="">Contato</a>
+        </nav>
+        <img src="https://raw.githubusercontent.com/TonyCamargo01/ProjetoJs/b8d05f5f3169fb469f9335209eb2d93667c2db29/Projeto%20Grupo/imagens/chuteira.jpg" alt="Chuteira" height="500" width="600">
     </header>
-    <main>
-      <img src="./imagens/chuteira.jpg" alt="chuteira" id="chuteira" />
-
-      <h1>BLOG</h1>
-
-      <div id="amarelo"></div>
-      <div id="azul">
-        <div id="lendas">
-          <div class="lenda">
-            <img src="./imagens/ronaldinho.webp" alt="ronaldinho" />
-            <h2 class="titulo" id="bruxo">O BRUXO</h2>
-            <p class="informacoes">
-              Ronaldinho Gaúcho foi um verdadeiro mágico com a bola, unindo
+    <table id="imagens">
+        <tr>
+            <td>
+            <figure align="center">
+            <img src="https://raw.githubusercontent.com/TonyCamargo01/ProjetoJs/b8d05f5f3169fb469f9335209eb2d93667c2db29/Projeto%20Grupo/imagens/ronaldinho.webp" alt="Ronaldinho">
+               
+            <h1 align="center">O Bruxo</h1>
+            <h2 align="justify">
+                <p>Ronaldinho Gaúcho foi um verdadeiro mágico com a bola, unindo
               habilidade extraordinária, criatividade e alegria contagiante. Sua
               genialidade o consagrou no Barcelona e na Seleção Brasileira,
-              eternizando-o como um dos maiores ídolos do futebol.
-            </p>
-          </div>
-
-          <div class="lenda">
-            <img src="./imagens/messi.jpg" alt="messi" />
-            <h2 class="titulo" id="talento">TALENTO PURO</h2>
-            <p class="informacoes">
-              Messi é um gênio da consistência e da técnica refinada,
+              eternizando-o como um dos maiores ídolos do futebol.</p>
+            </h2>
+            </td>
+            <td>
+                <figure align="center">
+                    <img src="https://raw.githubusercontent.com/TonyCamargo01/ProjetoJs/b8d05f5f3169fb469f9335209eb2d93667c2db29/Projeto%20Grupo/imagens/messi.jpg" alt="Messi" height="192" width="192">
+            <h1 align="center">Talento Puro</h1>
+            <h2 align="justify">
+             <p>Messi é um gênio da consistência e da técnica refinada,
               transformando o futebol em arte com sua visão de jogo e dribles
               curtos. Maior ídolo da história do Barcelona e campeão mundial
               pela Argentina, ele é, para muitos, o maior jogador de todos os
               tempos.
-            </p>
-          </div>
-
-          <div class="lenda">
-            <img src="./imagens/cr7.webp" alt="cristiano ronaldo" />
-            <h2 class="titulo" id="foco">FOCO E DISCIPLINA</h2>
-            <p class="informacoes">
-              Cristiano Ronaldo é o símbolo da dedicação e da força física, um
+             </p>
+            </h2>
+            </td>
+             <td>
+                <figure align="center">
+                    <img src="https://raw.githubusercontent.com/TonyCamargo01/ProjetoJs/b8d05f5f3169fb469f9335209eb2d93667c2db29/Projeto%20Grupo/imagens/cr7.webp" alt="Ronaldo (melhor do mundo)">
+                    <h1>Lenda</h1>
+                    <h2 align="justify">Cristiano Ronaldo é o símbolo da dedicação e da força física, um
               artilheiro implacável que quebrou recordes por onde passou. Com
               passagens lendárias por Manchester United e Real Madrid, ele se
               consagrou como um dos maiores vencedores e atletas da história do
-              esporte.
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
-  </body>
+              esporte.</h2>
+
+            </td>
+        </tr>
+
+    </table>
+    
+    <h1 align="center">Formulário</h1>
+    <h2>
+    <form id="meuFormulario" align="center">
+  Nome: <br>
+  <input type="text" id="nome"><br><br>
+
+  Idade: <br>
+  <input type="number" id="idade"><br><br>
+
+   Time favorito: <br>
+  <input type="text" id="time favorito"><br><br>
+
+  Seu hobbie: <br>
+  
+  <label><input type="checkbox">Jogar futebol</label><br>
+  <label><input type="checkbox">Assistir futebol</label><br>
+  <label><input type="checkbox">Jogar de goleiro no futebol</label><br>
+  <label><input type="checkbox" type="text">Outro?Coloque aqui</label><br>
+
+
+
+  <button type="submit">Enviar</button>
+</form>
+ 
+
+
+<script src="script.js"></script>
+</h2>
+</body>
 </html>
