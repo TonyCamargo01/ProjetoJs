@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lendas em Campo</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js">
   </head>
   <body>
     <header>
@@ -15,6 +16,7 @@
         <a href="">CONTATO</a>
       </nav>
     </header>
+
     <main>
       <img src="./imagens/chuteira.jpg" alt="chuteira" id="chuteira" />
 
@@ -26,66 +28,60 @@
           <div class="lenda">
             <img src="./imagens/ronaldinho.webp" alt="ronaldinho" />
             <h2 class="titulo" id="bruxo">O BRUXO</h2>
-            <p class="informacoes">
-              Ronaldinho Gaúcho foi um verdadeiro mágico com a bola, unindo
+            <p class="informacoes">Ronaldinho Gaúcho foi um verdadeiro mágico com a bola, unindo
               habilidade extraordinária, criatividade e alegria contagiante. Sua
               genialidade o consagrou no Barcelona e na Seleção Brasileira,
-              eternizando-o como um dos maiores ídolos do futebol.
-            </p>
+              eternizando-o como um dos maiores ídolos do futebol.</p>
           </div>
 
           <div class="lenda">
             <img src="./imagens/messi.jpg" alt="messi" />
             <h2 class="titulo" id="talento">TALENTO PURO</h2>
-            <p class="informacoes">
-              Messi é um gênio da consistência e da técnica refinada,
+            <p class="informacoes"> Messi é um gênio da consistência e da técnica refinada,
               transformando o futebol em arte com sua visão de jogo e dribles
               curtos. Maior ídolo da história do Barcelona e campeão mundial
               pela Argentina, ele é, para muitos, o maior jogador de todos os
-              tempos.
-            </p>
+              tempos.</p>
           </div>
 
           <div class="lenda">
             <img src="./imagens/cr7.webp" alt="cristiano ronaldo" />
             <h2 class="titulo" id="foco">FOCO E DISCIPLINA</h2>
-            <p class="informacoes">
-              Cristiano Ronaldo é o símbolo da dedicação e da força física, um
+            <p class="informacoes"> Cristiano Ronaldo é o símbolo da dedicação e da força física, um
               artilheiro implacável que quebrou recordes por onde passou. Com
               passagens lendárias por Manchester United e Real Madrid, ele se
               consagrou como um dos maiores vencedores e atletas da história do
-              esporte.
-            </p>
+              esporte.</p>
           </div>
         </div>
       </div>
+
+      <h1>Formulário</h1>
+      <section id="formulario">
+        <form>
+          <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+          </div>
+
+          <div class="campo">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" />
+          </div>
+
+          <div class="campo">
+            <label for="time">Time Favorito:</label>
+            <input type="text" id="time" />
+          </div>
+<button onclick="alert('Formulário enviado com sucesso!')">
+  Enviar
+</button>
+        </form>
+      </section>
     </main>
-    <h1>Formulário</h1>
-<div id="formulario">
-  <form>
-   <form>
-  <div class="campo">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" />
-  </div>
 
-  <div class="campo">
-    <label for="idade">Idade:</label>
-    <input type="number" id="idade" />
-  </div>
-
-  <div class="campo">
-    <label for="time">Time Favorito:</label>
-    <input type="text" id="time" />
-  </div>
-
-  <button type="submit">Enviar</button>
-</form>
-
-
-  <footer>
-    <h1 id="projeto">PROJETO DO CURSO JS</h1>
-  </footer>
-
+    <footer>
+      <h1 id="projeto">PROJETO DO CURSO JS</h1>
+    </footer>
   </body>
 </html>
