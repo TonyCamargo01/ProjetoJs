@@ -30,7 +30,7 @@ header {
 
 #chuteira {
   width: 99.2vw;
-  height: 100vh;
+  height: 80vh;
   object-fit: cover;
   display: block;
 }
@@ -140,7 +140,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: justify;
-  gap: 15px;
+  gap: 30px;
 }
 
 .campo {
@@ -152,7 +152,7 @@ form {
 }
 
 label {
-  margin-top: 40px;
+  margin-top: 50px;
   font-weight: bold;
   min-width: 120px;
   text-align: right;
@@ -160,18 +160,21 @@ label {
 }
 
 input {
-  font-size: 2rem;
+  font-size: 4rem;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #333;
 }
 
 button {
-  margin: 100px;
+  margin-top: 70px;
   padding: 30px 200px;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 footer {
+  align-items: end;
   background-color: #f4ff56;
   padding: 100px;
 }
